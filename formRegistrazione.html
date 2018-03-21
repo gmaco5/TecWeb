@@ -1,0 +1,39 @@
+
+<h1> Registrati al nostro sito per poter scambiare i tuoi libri </h1>
+<!--messaggioErrore-->
+        <form id="registerForm" action="registrazione.php"  method="post" onsubmit="return correctForm()">
+         	<fieldset>
+            	<legend> Registrazione </legend>
+                <!-- Per un discorso di accessibilità devo mettere le informazioni relative ai campi obbligatori all'inizio della form -->
+                <p  id="note" class="request">  (*) Campo obbligatorio. </p>
+                <!--Inserimento Usurname -->
+                <label> Username <span class="request"  title="campo obbligatorio" > * </span> </label> <br/>
+                <input id="username" class="inputText" name="us" type="text" title="Inserisci User" onkeyup="showIsPossible(this.value)"/> <br/>
+                <span id="presente"></span> <br/>
+                <!-- Inserisco un aiuto alla navigazione che permetta di tornare facilmente ad inserire un nuovo usurname -->
+                <a id="aiutoUsername" class="aiuti" href="#username">Cambia username</a>
+                <!--Inserimento Password -->
+                <label> Password <span class="request"  title="campo obbligatorio"> * </span> </label> <br/>
+                <span><input class="inputPassword" name="psw" type="password" title="Inserici la password"/> </span> <br/>
+                <!--Inserimento Nome -->
+                <label> Nome <span class="request"  title="campo obbligatorio"> * </span> </label> <br/>
+                <span><input class="inputText" name="nom" type="text" title="Inserisci il nome"/></span> <br/>
+                <!--Inserimento Cognome -->
+               	<label> Cognome <span class="request"  title="campo obbligatorio"> * </span> </label> <br/>
+                <span><input class="inputText" name="cogn" type="text" title="Inserisci il cognome"/></span> <br/>
+                <!--Inserimento città-->
+                <label> Citt&agrave; <span class="request" title="campo obbligatorio"> * </span> </label><br/>
+                <span><input class="inputText" name="citt" type="text" title="Inserisci la città"/></span> <br/>
+                <!--Inserimento Provincia -->
+                <label> Provincia <span class="request"  title="campo obbligatorio"> * </span> </label> <br/>
+                <span><input  class="inputText" name="prov" type="text" title="Inserisci la provincia"/></span> <br/>
+                <!--Inserimento email -->
+                <label> Email <span class="request"  title="campo obbligatorio"> * </span> </label> <br/>
+                <span><input class="inputText" name="em" type="text" title="Inserisci la tua mail"/></span> <br/>
+                <!--Inserimento numero di telefono opzionale -->
+                <label> Numero di Telefono </label><p class="aiuti">Campo non obbligatorio, se non vuoi inserirlo</p> <a href="#submit" class="aiuti"> passa al bottone di invio</a><br/>
+                <span><input class="inputText" name="tel" type="text" title="Inserisci il tuo numero di telefono"/></span><br/>
+                <!--Tasto per inviare i dati -->
+                <input id="submit" class="abutt" type="submit" value="Conferma" title="Clicca per confermare" /><br/>
+            </fieldset>
+</form>

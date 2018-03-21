@@ -1,0 +1,174 @@
+img {
+    display:none;
+}
+.aiuti {
+    display: none;
+}
+#menu {
+    display: none;
+}
+#loginForm, #logout, #aPers {
+    display: none;
+}
+
+.abutt{
+	display:block;
+    width: 50%;
+	margin:auto;
+	outline: none;
+    text-align:center;
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 0.5em;
+    border: solid 1px black;
+}
+.grass{
+	 font-weight: 900;
+}
+
+#titolo {
+    text-align: center;
+}
+
+#where, #footer {
+    border-style: solid;
+    border-width: 1pt 0pt;
+}
+#where {
+    margin-bottom: 20pt;
+}
+#footer {
+    margin-top: 20pt;
+}
+#where *, #footer * {
+    margin: 5pt;
+}
+
+#divSfo h1, #corpo h1{
+	text-align:center;
+    font-family: "Vag Rounded";
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+#divSfo a {
+	padding: 0.5em;
+    font-size:16pt;
+    display: block;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    padding: 0.5em 0.5em;
+    border: solid 1px black;
+}
+
+#corpo {
+    border-style: none;
+}
+
+#corpo label{
+	margin-right:1em;
+    float:left;
+}
+
+#corpo fieldset{
+    width: 20em;
+    margin:auto;
+   	padding: 1em;
+    border-style: solid;
+}
+
+.inputText{
+	width: 80%;
+    padding: 0.5em;
+    margin:0.3em;
+}
+.inputPassword{
+	width: 80%;
+    padding: 0.5em;
+    margin:0.3em;
+}
+#submit{
+	float: right;
+    font-size: 1em;
+    padding: 0.5em;
+    margin:0.3em;
+}
+
+#profilo fieldset legend{
+	color: red;
+    font-size: 2em;
+}
+
+.err{
+    color: red;
+    border: 1px solid red;
+    display: block;
+    padding: 0.5em;
+    margin-top: 1.5em;
+
+}
+
+#errore{
+    margin: auto;
+    width:50%;
+}
+
+#note{
+	margin-bottom:1em;
+}
+
+#noteg{
+	margin-bottom:1em;
+}
+
+#corpo fieldset p{
+	font-size: 0.7em;
+ }
+.request{
+	color:red;
+}
+
+#cata{
+	list-style-type: none;
+    margin: 0.5em;
+    text-align:center;
+}
+#cata li{
+	padding: 0.5em;
+    font-size: 1.5em;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#primoCata{
+	border-top: 1px solid black;
+}
+
+textarea{
+    height: 200px;
+    width: 320px;
+    overflow: hidden;
+}
+
+#addBookForm{
+    margin:auto;
+}
+#addBookForm fieldset{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+#addBookForm input{
+    width:95%;
+
+}
+#addBookForm input[type="checkBox"]{
+    width:30%;
+    margin-left: 20%;
+    float:right;
+}
+#addBookForm textarea{
+    width:95%;
+}

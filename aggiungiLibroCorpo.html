@@ -1,0 +1,103 @@
+<div id="corpo">
+    <!--messaggioErrore-->
+        <h1> Aggiungi un libro </h1>
+        <form id="addBookForm" action="aggiungiLibro.php"  method="post" enctype="multipart/form-data" onsubmit="return checkBook()" >
+         	<fieldset>
+            	<legend> Aggiunta nuovo libro </legend>
+                <p  id="note" class="request">  (*) Campo obbligatorio. </p>
+                <!--Inserimento ISBN -->
+                <label> codice ISBN <span class="request"  title="campo obbligatorio"> * </span> </label> <span class="presente"></span> <br/>
+                <span><input class="inputText" name="isbn" type="text" title="Inserisci ISBN"/></span> <br/>
+                <!--Inserimento itolo -->
+                <label> Titolo <span class="request"  title="campo obbligatorio" > * </span> </label> <span class="presente"></span> <br/>
+                <span><input class="inputText" name="title" type="text" title="Inserisci titolo"/></span> <br/>
+                <!--Inserimento Autore -->
+                <label> Autore <span class="request"  title="campo obbligatorio" > * </span> </label> <span class="presente"></span> <br/>
+                <span><input class="inputText" name="author" type="text" title="Inserisci Autore"/></span> <br/>
+                <!--Inserimento Casa editrice -->
+                <label> Casa Editirice <span class="request"  title="campo obbligatorio" > * </span> </label> <span class="presente"></span> <br/>
+                <span><input class="inputText" name="editor" type="text" title="Inserisci Casa Editrice"/></span> <br/>
+                <!--Inserimento Anno pubblicazione -->
+                <label> Anno Pubblicazione </label> <span class="presente"></span> <br/>
+                <span><input class="inputText" name="year" type="text" title="Inserisci Anno di pubblicazione"/></span> <br/>
+                <!--Inserimento Prezzo -->
+                <label> Prezzo <span class="request"  title="campo obbligatorio" > * </span> </label> <span class="presente"></span> <br/>
+                <span><input class="inputText" name="price" type="text" title="Inserisci Prezzo"/></span> <br/>
+					<fieldset>
+						<legend>Genere</legend>
+            <p  id="noteg" class="request">  Seleziona fino a 3 generi. </p>
+                        <label for="v1" > Informatica </label>
+                        <input type="checkbox"  id="v1" name="kind[]" value="1"/> <br/>
+                        <label for="v2" > Storia</label>
+						<input type="checkbox" id="v2" name="kind[]" value="2"/> <br/>
+                        <label for="v3" > Classici </label>
+						<input type="checkbox" id="v3" name="kind[]" value="3"/> <br/>
+                        <label for="v4" > Horror </label>
+						<input type="checkbox" id="v4" name="kind[]" value="4"/> <br/>
+                        <label for="v5" > Fantascienza </label>
+						<input type="checkbox" id="v5" name="kind[]" value="5"/> <br/>
+                        <label for="v6" > Fantasy </label>
+						<input type="checkbox" id="v6" name="kind[]" value="6"/> <br/>
+                        <label for="v7" > Bambini </label>
+						<input type="checkbox" id="v7" name="kind[]" value="7"/> <br/>
+                        <label for="v8" > Scuola </label>
+						<input type="checkbox" id="v8" name="kind[]" value="8"/> <br/>
+                        <label for="v9" > Romantico </label>
+						<input type="checkbox" id="v9" name="kind[]" value="9"/> <br/>
+                        <label for="v10" > Arte </label>
+						<input type="checkbox" id="v10" name="kind[]" value="10"/> <br/>
+                        <label for="v11" > Filosofia </label>
+						<input type="checkbox" id="v11"  name="kind[]" value="11"/> <br/>
+                        <label for="v12" > Geografia </label>
+						<input type="checkbox" id="v12"  name="kind[]" value="12"/> <br/>
+                         <label for="v13" > Poesia </label>
+						<input type="checkbox" id="v13" name="kind[]" value="13"/> <br/>
+                       <label for="v14" > Matematica </label>
+						<input type="checkbox" id="v14"  name="kind[]" value="14"/> <br/>
+                        <label for="v15" > Fisica </label>
+						<input type="checkbox" id="v15"  name="kind[]" value="15"/> <br/>
+                        <label for="v16" > Scienze </label>
+						<input type="checkbox" id="v16"  name="kind[]" value="16"/> <br/>
+                        <label for="v17" > Biografia </label>
+						<input type="checkbox" id="v17"  name="kind[]" value="17"/> <br/>
+                        <label for="v18" > Sport </label>
+						<input type="checkbox" id="v18" name="kind[]" value="18"/><br/>
+                        <label for="v19" > Cucina </label>
+						<input type="checkbox" id="v19"  name="kind[]" value="19"/><br/>
+                        <label for="v20" > Fai da te </label>
+						<input type="checkbox" id="v20"  name="kind[]" value="20"/><br/>
+                         <label for="v21" > Economia </label>
+						<input type="checkbox" id="v21" name="kind[]" value="21"/><br/>
+                       <label for="v22" > Narrativa </label>
+						<input type="checkbox" id="v22"  name="kind[]" value="23"/><br/>
+                        <label for="v23" > Lingua Straniera </label>
+						<input type="checkbox" id="v23"  name="kind[]" value="24"/><br/>
+                        <label for="v24" > Giallo </label>
+                        <input type="checkbox" id="v24"  name="kind[]" value="25"/><br/>
+                        <label for="v25" > Thriller </label>
+						<span> <input type="checkbox" id="v25" name="kind[]" value="26"/>
+                            </span>
+
+                </fieldset>
+                <!--Inserimento Stato -->
+                <label> Stato di usura <span class="request"  title="campo obbligatorio" > * </span> </label> <span class="presente"></span> <br/>
+                <span>
+					<select name="state" title="Inserisci Stato">
+						<option value="Come nuovo">Come nuovo</option>
+						<option value="Ottime condizioni">Ottime condizioni</option>
+						<option value="Buone condizioni">Buone condizioni</option>
+						<option value="Condizioni accettabili">Condizioni accettabili</option>
+					</select>
+				</span> <br/>
+                <!--Inserimento Note -->
+                <label> Note </label> <span class="presente"></span> <br/>
+                <textarea name="note" title="InserisciNote" rows="10" cols="1"> </textarea>
+                <!-- <input class="inputText" name="note" type="text" title="Inserisci Note "/> --><br/>
+                <!--Inserimento Foto -->
+                <label> Foto del libro  </label> <span class="presente"></span> <br/>
+                <span><input class="inputText" name="photo" type="file" title="Inserisci Foto " onchange="return checkPhoto()"/></span> <br/>
+                <input class="abutt" id="submit" type="submit" name="submit" value="Conferma" title="Clicca per confermare" /><br/>
+            </fieldset>
+    </form>
+    <a href="userHome.php" class="abutt" id="homepg"><img id="ind" src="images/indietro.png" alt="indietro"/>Torna alla homepage personale</a>
+</div>

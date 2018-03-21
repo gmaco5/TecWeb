@@ -1,0 +1,647 @@
+/*
+====================
+  SEZIONE GENERALE
+====================
+*/
+html{
+	background-color: SteelBlue ;
+
+}
+
+*{
+	padding:0em;
+	margin:0em;
+}
+
+html, body{
+	max-width: 1024px;
+	margin: auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+body{
+	background-color: white;
+}
+
+/*
+===============
+SEZIONE HEADER
+===============
+*/
+#logForm{
+	margin-left:71%;
+    padding-bottom: 0.3em;
+}
+
+#loginForm input[type="submit"]{
+	display:block;
+	margin:auto;
+	outline: none;
+    cursor:pointer;
+    text-align:center;
+    text-decoration: none;
+    color: white;
+    margin-top:0.3em;
+    border: solid 1px white;
+    background: #0095cd;
+    padding:0.3em;
+}
+
+#loginForm{
+font-size: 0.7em;
+	margin-left:0em;
+    width:6em;
+}
+
+#loginForm fieldset a{
+	color:white;
+}
+
+#loginForm fieldset {
+	border-color:white;
+    margin:0.3em;
+    padding:1em;
+    background-color: SteelBlue;
+		width:13em;
+}
+
+#logForm fieldset input[type='text']{
+	width:11em;
+}
+
+#logForm fieldset input[type='password']{
+	width:11em;
+}
+
+#loginForm legend{
+    background-color: SteelBlue;
+    color:white;
+}
+#loginForm label{
+	line-height: 1.5em;
+    color:white;
+}
+
+#invioLogin{
+	float:right;
+}
+
+#header{
+    overflow:auto;
+    /*background-color:lightBlue;*/
+    padding-left: 1.5em;
+    background-image: url(sfondo.jpg);
+}
+
+#titolo{
+    margin-right: 28%;
+    padding:1em;
+}
+#titolo h1{
+	color: #0000cc;
+	font-size: 3em;
+    display:block;
+    float:left;
+
+}
+
+#titolo h2{
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: normal;
+    display:block;
+    float:left;
+}
+
+#logOut{
+	margin-left:90%;
+}
+
+#nome{
+	font-style: italic;
+    color: red;
+}
+
+#aPers{
+    margin-left:71%;
+    padding-bottom: 0.3em;
+    width:15em;
+}
+
+#logout{
+    margin-left:71%;
+    padding-bottom: 0.3em;
+    width:15em;
+}
+
+/*
+==================
+SEZIONE WHERE
+==================
+*/
+
+.err{
+    color: red;
+    border: 1px solid red;
+    display: block;
+    padding: 0.5em;
+    margin-top: 1.5em;
+
+}
+
+#errore{
+    margin: auto;
+    width:50%;
+}
+
+/*#errore p{
+    margin:0.5em;
+}*/
+#where{
+	background-color: #0000cc;
+	border-bottom: 1px solid #3333ff;
+    border-top: 1px solid #3333ff;
+	padding: 0.5em;
+	color:white;
+	font-size: 1.0em;
+
+}
+
+#where p{
+	font-weight: bold;
+}
+
+#where p a:link{
+	color:white;
+}
+
+#where p a:visited{
+	color:white;
+}
+
+
+
+#where p a:active{
+	color:white;
+}
+
+/*
+=========================
+SEZIONE menu
+=========================
+*/
+
+#tornaSuCata{
+	display:block;
+	float:right;
+}
+#menu{
+	padding: 0.5em;
+	font-size: 1.1em;
+    border-bottom: 1px solid #3333ff;
+    /*border-left: 1px solid #3333ff;
+    border-right: 1px solid #3333ff;*/
+}
+
+#menu ul{
+	list-style-type: none;
+    padding-left:0em;
+    margin-left:0em;
+}
+
+#menu ul li{
+	padding: 0.5em;
+    display: inline;
+}
+
+#menu a:visited{
+	color: #003380;
+}
+
+#menu a:link{
+	color: #0066ff;
+}
+
+.centrali{
+	border-left: 1px solid #3333ff;
+}
+
+.ultimo{
+	border-right: 1px solid #3333ff;
+    border-left: 1px solid #3333ff;
+}
+
+
+/*
+=========================
+SEZIONE CORPO
+========================
+*/
+#registerForm{
+    margin-bottom:0.5em;
+    margin-top:0.5em;
+}
+
+textarea{
+    height: 200px;
+    width: 320px;
+    overflow: hidden;
+}
+
+#confel{
+	margin-bottom:1em;
+    font-weight: bold;
+    color:red;
+}
+
+.abutt{
+	display:block;
+    width: 50%;
+	margin:auto;
+	outline: none;
+    cursor:pointer;
+    text-align:center;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 0.5em;
+    border: solid 1px blue;
+    background: #0095cd;
+}
+#corpo h2{
+	text-align:center;
+    font-family: "Vag Rounded";
+    font-size:1.5em;
+    font-weight:normal;
+    font-style:italic;
+    margin-bottom: 1em;
+}
+#corpo h1{
+	text-align:center;
+    font-family: "Vag Rounded";
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+#cata{
+	list-style-type: none;
+    margin: 0.5em;
+    text-align:center;
+}
+#cata li{
+	padding: 0.5em;
+    font-size: 1.5em;
+    border-bottom: 1px solid #3333ff;
+    border-left: 1px solid #3333ff;
+    border-right: 1px solid #3333ff;
+}
+#primoCata{
+	border-top: 1px solid #3333ff;
+}
+
+#novita ul{
+	list-style-type: none;
+    font-size: 1.5em;
+}
+
+#novita ul li{
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+#fotoLibro{
+	display:block;
+    float:right;
+    width:30%;
+}
+.info{
+	padding: 0.5em;
+}
+.grass{
+	 font-weight: 900;
+}
+#corpo {
+    /*border-left: 1px solid #3333ff;
+    border-right: 1px solid #3333ff;*/
+    padding:2em;
+   overflow:auto;
+}
+
+#imgIndex{
+	display:block;
+	margin: auto;
+}
+
+#corpo label{
+	margin-right:1em;
+    float:left;
+}
+
+#corpo fieldset{
+    width: 20em;
+    margin:auto;
+   	padding: 1em;
+}
+
+.inputText{
+	width: 80%;
+    padding: 0.5em;
+    margin:0.3em;
+}
+
+.inputPassword{
+	width: 80%;
+    padding: 0.5em;
+    margin:0.3em;
+}
+
+#submit{
+	float: right;
+    font-size: 1em;
+    padding: 0.5em;
+    margin:0.3em;
+}
+
+#corpo fieldset p{
+	font-size: 0.7em;
+ }
+.request{
+	color:red;
+}
+
+.presente{
+	color:red;
+    font-size:0.7em;
+}
+
+#immdm{
+	display: block;
+    width: 20em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    float:left;
+}
+
+#immUni{
+	display:block;
+    width: 20em;
+    float:right;
+}
+#dlContact{
+	padding: 1em;
+
+}
+
+#dlContact dt{
+	padding-top: 1.3em;
+	font-weight: bold;
+}
+#dlContact dd{
+	text-indent: 3em;
+    line-height: 1.5em;
+}
+
+#profilo fieldset{
+	border-style: none;
+    width: 100%;
+}
+
+#profilo fieldset legend{
+	color: red;
+    font-size: 2em;;
+
+}
+
+#profilo fieldset button{
+	display:block;
+    width: 30em;
+	margin:auto;
+	outline: none;
+    cursor:pointer;
+    text-align:center;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 0.5em;
+    border: solid 1px blue;
+    background: #0095cd;
+}
+
+#divSfo{
+    float: left;
+    background-color: white;
+    width:70%;
+    border-right: 1px solid #3333ff;
+}
+#novita{
+	float:right;
+    background-color: white;
+    overflow:auto;
+    width: 29%;
+}
+
+#sfoglia fieldset button{
+	display:block;
+    width: 40%;
+	margin:auto;
+	outline: none;
+    cursor:pointer;
+    text-align:center;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 0.5em;
+    border: solid 1px blue;
+    background: #0095cd;
+}
+
+#sfoglia fieldset legend{
+	text-align:center;
+    font-family: "Vag Rounded";
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+#sfoglia fieldset{
+	border-style: none;
+    width: 100%;
+    margin: 1em;
+}
+#novita li{
+	font-size: 14pt;
+}
+#novita h1{
+	text-align:center;
+    font-family: "Vag Rounded";
+    font-size: 2em;
+}
+
+
+#novita{
+	float:right;
+}
+
+#dettaUser{
+    text-align:center;
+    display: block;
+    margin-right: 30%;
+}
+#dettaUser p{
+	margin:0.5em;
+}
+
+#divSfo h1{
+	text-align:center;
+    font-family: "Vag Rounded";
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+#divSfo a{
+	padding: 0.5em;
+    font-size:16pt;
+    display: block;
+    width: 40%;
+    margin: auto;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 0.5em;
+    border: solid 1px blue;
+    background: #0095cd;
+}
+
+button{
+	padding: 0.5em;
+    font-size:16pt;
+    display: block;
+    width: 40%;
+    margin: auto;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 0.5em;
+    border: solid 1px blue;
+    background: #0095cd;
+}
+
+#note{
+	margin-bottom:1em;
+}
+
+#noteg{
+	margin-bottom:1em;
+}
+
+#elencoTit ul{
+	list-style-type: none;
+    font-size: 1.3em;
+}
+
+#elencoTit ul li{
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+}
+
+.aiuti{
+    position: absolute;
+    height:0;
+    overflow:hidden;
+}
+
+#aiutoUsername{
+    display: none;
+}
+
+#homepg{
+    margin:1em;
+    width:27%;
+    font-size:10pt;
+    padding-bottom:1em;
+    padding-top:1em;
+}
+#ind{
+    width:10%;
+    display: block;
+    float: left;
+}
+
+
+#addBookForm{
+    margin:auto;
+}
+#addBookForm fieldset{
+    width: 90%;
+    display: block;
+    margin: auto;
+
+}
+
+#addBookForm input{
+    width:95%;
+
+}
+
+#addBookForm input[type="checkBox"]{
+    width:30%;
+    margin-left: 20%;
+    float:right;
+}
+
+
+#addBookForm textarea{
+    width:95%;
+}
+
+#elLibForm fieldset{
+    width:90%;
+    border: none;
+}
+
+#elLibForm legend{
+    display: none;
+}
+#elLibForm ul{
+    margin: 0.5em;
+}
+
+#elLibForm ul li{
+    padding: 0.5em;
+    list-style-type: none;
+}
+
+#elim{
+    margin-top: 1em;
+}
+#aDett{
+    display: none;
+}
+
+#cDett{
+    display: none;
+}
+/*
+=========================
+SEZIONE FOOTER
+=========================
+*/
+#footer{
+	border-top: 1px solid #3333ff;
+	padding: 1em;
+    clear:both;
+}
+
+#imgValidCode{
+		float: left;
+
+}
+
+#imgValidCSS{
+	float: right;
+}
+
+#footer p{
+	margin-left: 10%;
+	margin-right:10%;
+	text-align: center;
+	font-size: 0.8em;
+}

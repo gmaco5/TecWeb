@@ -1,0 +1,202 @@
+/*
+===============
+SEZIONE HEADER
+===============
+*/
+#logForm{
+    padding-bottom: 0.3em;
+    margin-left: 1%;
+}
+
+#loginForm input[type="submit"]{
+	display:block;
+	margin:auto;
+	outline: none;
+    cursor:pointer;
+    text-align:center;
+    text-decoration: none;
+    color: white;
+    margin-top:0.3em;
+    border: solid 1px blue;
+    background: #0095cd;
+}
+
+
+
+#titolo h1{
+	color: #0000cc;
+	font-size: 1.5em;
+    display:block;
+}
+
+#titolo h2{
+    display: none;
+}
+
+#logOut{
+	margin-left:1%;
+}
+
+
+/*
+==================
+SEZIONE WHERE
+==================
+*/
+#where{
+display: none;
+}
+
+/*
+=========================
+SEZIONE menu
+=========================
+*/
+
+#menu{
+	margin-left: 3px;
+	padding: 0.5em;
+	font-size: 1.1em;
+    border-bottom: 1px solid #3333ff;
+}
+
+#menu ul{
+	list-style-type: none;
+    margin-left:-0.5em;
+}
+
+#menu ul li{
+	display:flex;
+    padding: 0.5em;
+  border-top: 1px solid #3333ff;
+  border-left: 1px solid #3333ff;
+  border-right: 1px solid #3333ff;
+}
+
+#current{
+	display:flex;
+}
+
+.ultimo{
+	display: flex;
+	border-bottom: 1px solid #3333ff;
+}
+.centrali{
+	display:flex;
+}
+/*
+=========================
+SEZIONE CORPO
+========================
+*/
+
+.abutt{
+	display:block;
+    width: 50%;
+	margin:auto;
+	outline: none;
+    cursor:pointer;
+    text-align:center;
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 0.5em;
+    border: solid 1px blue;
+    background: #0095cd;
+}
+#aPers{
+    padding-bottom: 0.5em;
+    margin-left: 1%;
+    margin-top: 2em;
+}
+#logout{
+    padding-bottom: 0.2em;
+    margin-left: 1%;
+    margin-top: 0.9em;
+    margin-bottom:0.5em;
+}
+
+
+
+#submit{
+	float: right;
+    font-size: 1em;
+    padding: 0.3em;
+}
+
+#immdm{
+	display: none;
+}
+
+#immUni{
+	display:none;
+}
+
+
+#divSfo{
+        background-color: white;
+		width:100%;
+		border-right: none;
+}
+
+#novita{
+display: none;
+}
+
+#dettaUser{
+	display:none;
+    text-align:center;
+    margin-right: 30%;
+}
+
+#dettaUser p{
+	margin:0.5em;
+}
+
+#divSfo h1{
+	text-align:center;
+    font-family: "Vag Rounded";
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+
+#elencoTit ul{
+	list-style-type: none;
+    font-size: 1.1em;
+}
+
+#elencoTit ul li{
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
+  font-size: 1.1em;
+}
+
+.abutt{
+    display:block;
+}
+/*
+=========================
+SEZIONE FOOTER
+=========================
+*/
+#footer{
+	border-top: 1px solid #3333ff;
+	padding: 1em;
+    clear:both;
+}
+
+#imgValidCode{
+		display:none;
+
+}
+
+#imgValidCSS{
+	display:none;
+}
+
+#footer p{
+	margin-left: 10%;
+	margin-right:10%;
+	text-align: center;
+	font-size: 0.8em;
+}
